@@ -80,7 +80,7 @@
     border: none;
 }
 .card-itam{
-    /* text-align: center; */
+    text-align: center;
     margin-bottom: 20px;
     margin-left: 20px;
 }
@@ -96,6 +96,46 @@ h4{
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
 
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 300px;
+}
+.image-cont{
+    position: relative;
+}
+.image-cont img{
+    width: 540px;
+    height: 597px;
+}
+.badge{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -300px;
+    right: -250px;
+    width: 80px;
+    /* box-shadow: 0 4px 10px 20px gray; */
+    
+}
+.text-sect{
+    max-width: 600px;
+}
+.text-sect h2{
+    font-weight: 600;
+    font-size: 3.1rem;
+    margin-bottom: 20px;
+
+}
+.text-3 li{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: gray;
 }
 
   
@@ -122,6 +162,11 @@ h4{
     .card-plants{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .container{
+        flex-direction: column;
+        width: 0px;
     }
     
 }
