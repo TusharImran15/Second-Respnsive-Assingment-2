@@ -91,6 +91,12 @@
 h4{
     margin-top: 5px;
 }
+.text-3{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: gray;
+}
 .card-plants{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -99,44 +105,43 @@ h4{
 }
 .container{
     width: 1140px;
-    margin: 0 auto;
+    margin: 0px auto;
     display: flex;
+    gap: 60px;
+    margin-top: 120px;
     align-items: center;
-    gap: 150px;
-    margin-top: 300px;
 }
 .image-cont{
     position: relative;
 }
-.image-cont img{
+/* .image-cont img{
     width: 540px;
     height: 597px;
-}
+} */
 .badge{
-    width: 50px;
-    height: 50px;
+    /* width: 286px;
+    height: 286px; */
     position: absolute;
-    top: -300px;
-    right: -250px;
-    width: 80px;
+    top: -140px;
+    right: -100px;
     /* box-shadow: 0 4px 10px 20px gray; */
     
 }
+#badges{
+    width: 286px;
+    height: 286px;
+}
 .text-sect{
-    max-width: 600px;
+    width: 540px;
+    height: 521px;
 }
 .text-sect h2{
     font-weight: 600;
-    font-size: 3.1rem;
+    /* font-size: 3.1rem; */
     margin-bottom: 20px;
 
 }
-.text-3 li{
-    font-weight: 400;
-    font-size: 1rem;
-    margin-bottom: 15px;
-    color: gray;
-}
+
 
   
 
@@ -167,6 +172,28 @@ h4{
     .container{
         flex-direction: column;
         width: 0px;
+        align-items: center;
+        
+    }
+    .plant-header{
+        align-items: center;
+    }
+    .badge{
+        display: none;
+    }
+    .imagess{
+        width: 358px;
+        height: 396px;
+    }
+    
+    .text-sect{
+        width: 361px;
+        height: 51px;
+    }
+    .head{
+        width: 270px;
+        height: 33px;
+        /* font-size: 0rem; */
     }
     
 }
