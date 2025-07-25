@@ -58,14 +58,13 @@
 .plant-header{
     text-align: center;
 }
+
 .plants{
     font-weight: 600;
     font-size: 3rem;
     margin-bottom: 16px;
 }
 .text-2{
-    
-    /* height: 50px; */
     font-weight: 400;
     font-size: 1.rem;
     align-items: center;
@@ -114,13 +113,8 @@ h4{
 .image-cont{
     position: relative;
 }
-/* .image-cont img{
-    width: 540px;
-    height: 597px;
-} */
+
 .badge{
-    /* width: 286px;
-    height: 286px; */
     position: absolute;
     top: -140px;
     right: -110px;
@@ -201,7 +195,7 @@ h4{
 }
 .deal-card, .large{
     grid-column: span 2;
-    /* height: 320px; */
+    
 }
 .deal-card, .text{
     padding: 10px 15px;
@@ -224,8 +218,37 @@ h4{
     font-size: 1.3rem;
     align-items: center;
 }
-
-  
+.footer-container{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.foot-cont{
+    display: flex;
+    gap: 30px;
+} 
+.home-foot{
+    display: flex;
+    gap: 30px;
+}
+.text-5{
+    font-weight: 300;
+    font-size: 1.3rem;
+    color: gray;
+    
+}
+.flax-1 ul{
+    list-style: none;
+    color: #808080;
+}
+.flax-1 ul li{
+    margin-bottom: 20px;
+}
+.logo-foot{
+    display: flex;
+    gap: 20px;
+}
 
 
 
@@ -251,6 +274,7 @@ h4{
         grid-template-columns: repeat(2, 1fr);
         
     }
+    
     .container{
         flex-direction: column;
         width: 0px;
@@ -290,5 +314,17 @@ h4{
         width:361px;
         height: 206px;
     } 
+    .foot-cont{
+        flex-direction: column;
+    }
+    .home-foot{
+        flex-direction: column;
+    }
+    
+    .footer-container{
+        width: 369px;
+        height: 765px;
+        gap: 20px;
+    }
     
 }
