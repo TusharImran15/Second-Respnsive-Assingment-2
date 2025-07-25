@@ -123,8 +123,8 @@ h4{
     height: 286px; */
     position: absolute;
     top: -140px;
-    right: -100px;
-    /* box-shadow: 0 4px 10px 20px gray; */
+    right: -110px;
+    filter: drop-shadow(10px 5px 5px gray);
     
 }
 #badges{
@@ -141,7 +141,89 @@ h4{
     margin-bottom: 20px;
 
 }
-
+.head-2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.head-2 h2{
+    font-weight: 600;
+    font-size: 3.1rem;
+    margin-bottom: 15px;
+}
+.deals-container{
+    display: flex;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+   margin-top: 90px;
+}
+.deal-card-1{
+    width: 366px;
+    height: 206px;
+    background-image: url(../images/deal-ana.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.deal-card-2{
+    width: 366px;
+    height: 206px;
+    background-image: url(../images/deal-bloom.png);
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 10px;   
+    
+}
+.deal-card-3{
+    width: 755px;
+    height: 423px;
+    background-image: url(../images/deal-zabo.png);
+     background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    color: #FFFFFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.deal-card, .large{
+    grid-column: span 2;
+    /* height: 320px; */
+}
+.deal-card, .text{
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.deal-card h3{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+.deal-card p{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.text-4{
+    
+    height: 30px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    align-items: center;
+}
 
   
 
@@ -173,7 +255,7 @@ h4{
         flex-direction: column;
         width: 0px;
         align-items: center;
-        
+        margin-bottom: 400px;
     }
     .plant-header{
         align-items: center;
@@ -193,7 +275,20 @@ h4{
     .head{
         width: 270px;
         height: 33px;
-        /* font-size: 0rem; */
+       
     }
+    .latest-section{
+        flex-direction: column;
+        grid-template-columns: ;
+        align-items: center;
+    }
+    .deals-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .deal-card-3{
+        width:361px;
+        height: 206px;
+    } 
     
 }
